@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px -2px lightgray;
+}
+
+body {
+    background-color: #f8fafc;
+}
+
+.logos {
+    width: 20px;
+    height: 20px;
+    margin: 0.5em;
+}
+
+span {
+    color: #645cff;
+}
+
+.Your-tasks, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+fieldset {
+    width: 35em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    width: 30em;
+    height: 1.5em;
+    border: 1px solid lightgrey;
+    background-color: #f8fafc;
+    border-radius: 4px;
+}
+
+p {
+    text-align: left;
+    font-size: 13px;
+    color: #8a2c35;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+.violet-button {
+    background-color: #645cff;
+    font-weight: bold;
+    color: white;
+    width: 8em;
+    height: 2em;
+    margin-left: -1em;
+    border-radius: 4px;
+    border: none;
+}
+
+.trashes, .dog {
+    width: 35em;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding-left: 2em;
+    
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.trashes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+    box-shadow: 0 4px 10px -2px lightgray;
+}
+
+.dog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.underlined-header {
+    text-decoration: line-through;
+}
+
+
+.small-icon {
+    width: 15px;
+    height: 15px;
+    padding: 0.2em;
+}
+
+.options {
+    margin-right: 45px;
+}
+
+h3 {
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.edit-task {
+    width: 35em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 0.5px solid lightgrey;
+    border-radius: 4px;
+    margin-top: 5em;
+}
+
+.edit-button {
+    background-color: #645cff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 38em;
+    height: 2em;
+    font-weight: bold;
+}
+
+.red-text {
+    text-align: center;
+}
+
+.black-button {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 30%;
+    margin-left: 12em;
+}
+
+.white-input {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+input[type="checkbox"] {
+    border-radius: 10px;
+}
+
+.left-aligned {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
